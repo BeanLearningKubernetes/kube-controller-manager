@@ -1,3 +1,29 @@
+.DS_Store
+.idea/
+.envrc
+
+default.etcd
+
+assets/*
+!assets/.gitkeep
+!assets/.kubeconfig.sample
+!assets/openssl.cnf
+!assets/v3.ext
+
+assets-backup/
+
+*.tmp
+
+cmd/*
+!cmd/kube-controller-manager
+
+kubernetes
+staging/src/k8s.io
+pkg
+test
+plugin
+third_party
+
 # If you prefer the allow list template instead of the deny list, see community template:
 # https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
 #
